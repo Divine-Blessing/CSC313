@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSC313 ASSIGNMENT</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<h1 id="awesomeTitle" style="color: purple;">Details</h1>	
+<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="list.html">Students</a></li>
+	<li><a href="aboutus.html">Details</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+	<p>Fill in your details here</p>
+	<form action="contactform.php" method="post">
+	
+	Name<input type="text" name="name" placeholder="Surname first"> <br>
+	Religion<input type="text" name="Religion" placeholder="Religion">
+	Race<select name="Race">
+		<option value="race1">Neither</option>
+		<option value="race2">Black</option>
+		<option value="race3">Hispanic</option>
+		<option value="race4">White</option>
+		<option value="race5">Native Hawaiian</option>
+		<option value="race6">Asian</option>
+		<option value="race7">Alaska Native</option>
+	</select> <br>
+
+	E-mail<input type="text" name="Email" placeholder="Write your email..."> 
+	
+	Phone number<input type="value" name="Phone number" placeholder="Input your mobile number" >
+	Password<input type="password" name="pwd" placeholder="password">
+	Gender: <br>
+	Male<input class="Male" type="radio" name="gender"  value="Male">
+	Female<input type="radio" name="gender" value="Female">
+	Other<input type="radio" name="gender" value="Other"><br>
+	<p>Any Symptoms: (Check all that apply!)</p>
+	<input type="Checkbox" name="cough"/> cough
+	<input type="Checkbox" name="Headache"/> headache
+	<input type="Checkbox" name="Cattarh"/> cattarh
+	<input type="Checkbox" name="Body pain"/> body pain
+	<input type="Checkbox" name="Blurry sight"/> blurry sight <br>
+	
+	<button type="submit" name="submit">Register</button>
+
+</form>	
+<style type="text/css">
+	h1 {
+color: purple;
+font-size: 70px;
+margin: 0px;
+background-color: orange;
+text-align: center;
+	}
+	p{
+		color: #999999;
+	}
+</style>
+
+</body>
+</html>
